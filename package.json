@@ -1,0 +1,26 @@
+{
+  "name": "connect-static2x",
+  "version": "0.0.1",
+  "description": "Middleware for connect which works the same as static() except for support for dynamic retina and resized images based on the filename of a jpeg or png.",
+  "main": "connect-static2x.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "image",
+    "resizer",
+    "retina",
+    "image"
+  ],
+  "author": "Pete Saia",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "supertest": "~0.8.1"
+  },
+  "dependencies": {
+    "connect": "~2.11.0",
+    "send": "~0.1.4",
+    "gm": "~1.13.3"
+  }
+}
