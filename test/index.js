@@ -102,4 +102,15 @@ describe("Middleware http requests", function() {
         done();
       });
   });
+
+  it("should return an image within a sub directory properly", function(done) {
+    request(server)
+      .get("/sub/sample-200x200.png")
+      .expect(200)
+      .end(function(err, res) {
+        if (err) return done(err);
+        fs.unlinkSync(__dirname + "/images/sub/sample-200x200.png");
+        done();
+      });
+  });
 });
