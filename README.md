@@ -12,6 +12,10 @@ static2x will interpret and process any jpeg or png in the following format usin
 * `/example-200x200c.png` The original file will be returned proportionally scaled and cropped to 200x200.
 * `/example-200x200c@2x.png` The original file will be returned proportionally scaled and cropped to 400x400.
 
+## Install
+
+`npm install connect-static2x`
+
 ## Options
 
 This works exactly like [static()](http://www.senchalabs.org/connect/static.html) except for a few extra options:
