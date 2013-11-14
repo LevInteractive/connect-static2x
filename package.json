@@ -1,6 +1,6 @@
 {
   "name": "connect-static2x",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Middleware for connect which works the same as static() except for support for dynamic retina and resized images based on the filename of a jpeg or png.",
   "main": "connect-static2x.js",
   "repository": {
