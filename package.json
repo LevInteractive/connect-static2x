@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Middleware for connect which works the same as static() except for support for dynamic retina and resized images based on the filename of a jpeg or png.",
   "main": "connect-static2x.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LevInteractive/connect-static2x"
+  },
   "scripts": {
     "test": "mocha test"
   },
@@ -13,7 +17,7 @@
     "image"
   ],
   "author": "Pete Saia",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "~1.14.0",
     "supertest": "~0.8.1"
