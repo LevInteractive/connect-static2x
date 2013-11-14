@@ -3,7 +3,7 @@ connect-static2x
 
 Middleware for connect which works the same as static() except with support for dynamic retina and resized images based on the filename of a jpeg or png.
 
-This makes it incredibly easy to server dynamically sized images and support retina devices without having to worry about creating sprites or multiple versions of images. Retina support is a snap when used with something like [retina.js](http://retinajs.com/) on the frontend.
+This makes it incredibly easy to serve dynamically sized images and support retina devices without having to worry about creating sprites or multiple versions of images. Retina support is a snap when used with something like [retina.js](http://retinajs.com/) on the frontend.
 
 static2x will interpret and process any jpeg or png in the following format using the default options:
 
